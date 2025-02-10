@@ -1,0 +1,63 @@
+body {
+    background-color: hsl(0,0%,0%);
+    background-image: radial-gradient(circle farthest-side at center bottom, hsl(0, 0%, 11%) 0%, hsl(0,0%,0%) 100%);
+    background-attachment: fixed;
+    background-size:cover;
+    color:rgb(242, 242, 242);
+    font-family: "Dubai Light", "Helvetica Neue", Helvetica, Roboto, sans-serif;
+}
+
+#menu {
+    padding: 2%;
+    background:rgba(49, 49, 49, 0.1);
+    box-shadow: 0px 0px 15px rgb(22, 22, 22);
+    text-align: center;
+}
+
+#main-content {
+    margin:1% 5% 0% 5%;
+    padding:2%;
+    background:rgba(60, 60, 60, 0.095);
+    border-radius:15px;
+    box-shadow: 0px 0px 5px rgba(22, 22, 22, 0.8);
+}
+
+footer {
+    text-align:center;
+    padding:3%;
+    background:rgba(136, 136, 136, 0.054);
+    box-shadow: 0px 0px 5px rgba(169, 169, 169, 0.363);
+}
+
+.center {
+    text-align:center;
+}
+
+.input-dark, .input-dark:focus {
+    background: rgba(234, 234, 234, 0.101);
+    border:none;
+    color:white;
+}
+
+.input-dark::placeholder {
+    color:rgb(102, 102, 102);
+}
+
+.center-v {
+    align-items: center;
+    align-content: center;
+}
+
+#notice {
+    margin:2%;
+}
+
+.justify {
+    text-align: justify;
+}
+
+@media (max-width: 760px) {
+    footer, #notice {
+        padding:5%;
+    }
+}
